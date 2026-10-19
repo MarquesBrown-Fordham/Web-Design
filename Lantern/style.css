@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background-color: black;
+color: white;
+cursor: url("Green-Lantern-Emblem.png") 0 0, auto;
+}
+a, button{
+    cursor: pointer;
+}
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.orbitron-bold {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    line-height: 1.3;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+    left: 255px;
+    bottom: 100px;
+    color: greenyellow;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+h2:hover{
+transform: scale(1.2);
+    z-index: 99;
+}
+h3{
+   line-height: 1.5;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+    left: 255px; 
+    bottom: 100px;
+    color: greenyellow;
+    font-size: 30px;
+    text-align: center;
+}
+.bio{
+    position: relative;
+    left: 50px;
+    bottom: 250px;
+    color: black;
+    font-size: 25px;
+}
+.haljordan{
+    position: relative;
+    left: -200px;
+    bottom: -290px;
+    color: black;
+    font-size: 25px;
+}
+header{
+    text-align: left;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 170px;
+    left: 630px;
+}
+.header{
+    background-image: url(kindpng_4121823.png);
+    width: 500px;
+    height: 500px;
+    background-size:contain ;
+    position: fixed;
+    top: 20px;
+    left:600px;
+    z-index: 101;
+    background-repeat: no-repeat;
+
+
+}
+.quote{
+    width: 10%;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    z-index: 500;
+    filter: drop-shadow(5px 5px 10px 2px);
+}
+#quote{
+    background-image: url(360_F_1510356581_Gojis9CpNJ8VyackCvpYasKL6w8UuKTP.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    background-image: url(Green_lantern.svg.webp);
+    width: 850px;
+    height: 850px;
+    background-size: contain;
+    position: absolute;
+    bottom: 130px;
+    right: 0px;
+    z-index: 9;
+    background-repeat: no-repeat;
+}
+.full{
+    background-image: url(dfoqhba-3503c7cc-9c0a-48f3-bf02-16ea83acb83d.png);
+    width: 800px;
+    height: 800px;
+    background-size:contain ;
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    z-index: 10;
+    background-repeat: no-repeat;
+    animation: halfly 3s 0s infinite alternate;
+}
+@keyframes halfly {
+    0% {top: 0; right: 75px;}
+    50% {top: 100px; right: 50px;}
+    100% {top: 100px; right: 150px;}
+}
+.fist{
+    background-image: url(d49fzoh-a280403e-bc68-409f-b0cb-9ba5f8e8b1b7-removebg-preview.png);
+    width: 1700px;
+    height: 1700px;
+    background-size:contain ;
+    position: absolute;
+    top: 0px;
+    left:-250px;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+#facts{
+    background-image: url(17875-87881-c352a463f8c6b387877a6803f2379028.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.flex-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    width: 30%;
+    margin: 0 5%;
+}
+h4{
+    font-size: 28px;
+    margin: -200px 0 20px 0;
+    text-align: center;
+}
+h5{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    max-width: 500px;
+    z-index: 100;
+    text-align: center;
+}
+#corps{
+    background-image: url(360_F_1510356581_Gojis9CpNJ8VyackCvpYasKL6w8UuKTP.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.ring{
+    background-image: url(Green_Lantern_Ring.webp);
+    width: 350px;
+    height: 350px;
+    background-size:contain ;
+    position: absolute;
+    bottom: 50px;
+    left:650px;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+.jordan{
+    background-image: url(m1xop6yn31y91-removebg-preview.png);
+    width: 500px;
+    height: 500px;
+    background-size:contain ;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    z-index: 10;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+.ringring{
+    background-image: url(Green_Lantern_Ring_-_Hal-removebg-preview.png);
+    width: 980px;
+    height: 980px;
+    background-size:contain ;
+    position: absolute;
+    bottom: 0px;
+    left:1100px;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+.bubble1{
+background-image: url(speech-bubble-thought-bubble-comic-bubble-transparent-free-free-png.webp);
+    width: 900px;
+    height: 900px;
+    background-size:contain ;
+    position: absolute;
+    bottom: 300px;
+    left:250px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+.bubble2{
+    background-image: url(speech-bubble-thought-bubble-comic-bubble-transparent-free-free-png.webp);
+    width: 800px;
+    height: 800px;
+    background-size:contain ;
+    position: absolute;
+    bottom: -180px;
+    left:450px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    transform: rotate(170deg);
+}
+.scott{
+    background-image: url(any-good-alan-scott-comics-alan-scott-the-green-lantern-v0-jy1wjijoyk5g1.webp);
+    width: 400px;
+    height: 400px;
+    background-size:contain ;
+    position: absolute;
+    bottom: 0px;
+    right:100px;
+    z-index: 10;
+    background-repeat: no-repeat;
+
+}
+#videos{
+    background-image: url(green-lantern-wallpaper-preview.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+h6{
+    margin: 0;
+}
+.sinestro{
+    position: relative;
+    left: -200px;
+    bottom: 300px;
+}
+iframe{
+    margin: 150px 50px;
+}
+
+#corps{
+    padding: 150px 0;
+
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+width: 60%;
+margin: 0 auto 0 auto;
+}
+.div1 { 
+    grid-area: 1 / 1 / 2 / 4; 
+    background-image: url();
+    background-size: contain;
+    background-position: center;
+}
+.div2 { 
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url(Green_lantern.svg.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 300px;
+    transition: 0.3s ease;
+}
+.div2:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+
+.div3 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-image: url(D423wv6.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div3:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+.div4 { 
+    grid-area: 2 / 3 / 3 / 4; 
+    background-image: url(Redlanternlogo.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div4:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+
+.div5 { 
+    grid-area: 3 / 1 / 4 / 2; 
+    background-image: url(Bluelanterns.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div5:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+.div6 { 
+    grid-area: 3 / 2 / 4 / 3; 
+    background-image: url(OrangelanternLogo.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div6:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+
+.div7 { 
+    grid-area: 3 / 3 / 4 / 4; 
+    background-image: url(Violetlanternlogo.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div7:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+.div8 { 
+    grid-area: 4 / 1 / 5 / 2; 
+    background-image: url(Indigotribelogo.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div8:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+.div9 { 
+    grid-area: 4 / 2 / 5 / 3; 
+    background-image: url(WhitelanternLogo.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div9:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+.div10 { 
+    grid-area: 4 / 3 / 5 / 4; 
+    background-image: url(BlacklanternLogo.webp);
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: 0.3s ease;
+}
+.div10:hover{
+    transform: scale(1.08);
+    z-index: 99;
+}
+.parent * {
+/* use display flex, justify-content, and align-items to center both vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+li a {
+    color: greenyellow;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li a:visited {
+    color: greenyellow;
+}
+li a:hover {
+    color: green;
+}
+p{
+    position: relative;
+    top: 0px;
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
