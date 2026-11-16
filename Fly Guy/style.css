@@ -1,0 +1,854 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(
+        circle,
+        #080B14 0%,
+        #17243A 50%,
+        #30213F 100%
+    );
+    min-height: 100vh;
+    margin: 0;
+}
+
+.ibm-plex-sans-uniquifier {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 577;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ipad{
+    background-image: url(29817-9-ipad-transparent-600x600.png);
+    width: 1150px;
+    height: 1150px;
+    background-size: contain;
+    transform: rotate(270deg);
+    position: absolute;
+    left: 300px;
+    top: -150px;
+}
+.screen{
+    background-image: url(vf4aS8e9FA8Q6yNEPcADs5PVNkkK3nIBDP5UiqBSITj5I4zwDrZZ5FarclxQO50hTzGd6jJL1LsN6AWZDKxrybfOJp7jKswy-yUReL3I1ITtKMGrhVwqijfboDPS_I-KxBm0oMIDtr1x3CFz1NDEdnvEJmbUs-K3OeMeD57G1TjP28TtsfcfUiafQz1cdob-.jpeg);
+    width: 887px;
+    height: 668px;
+    padding: 20px;
+    position: absolute;
+    top: 89px;
+    left: 420px;
+}
+.notibox{
+    background-color: #BDBDC2;
+    position: absolute;
+    width: 570px;
+    height: 120px;
+    left: 580px;
+    top: 300px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.notibox2{
+    background-color: #BDBDC2;
+    position: absolute;
+    width: 570px;
+    height: 120px;
+    left: 580px;
+    top: 450px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.robinpic{
+    background-image: url(Robin_glare.webp);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    top: 470px;
+    left: 600px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.robin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left: 700px;
+    top: 470px;
+    z-index: 10;
+}
+.robintxt{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 700px;
+    top: 510px;
+    font-size: 20px;
+    max-width: 500px;
+    z-index: 10;
+    font-size: 20px;
+}
+
+.app{
+    background-image: url(e80a0db07aa2b3fc9a59429945fe082a.png);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    top: 320px;
+    left: 600px;
+    z-index: 10;
+}
+.messapp{
+    background-image: url(IMessage_logo.svg.webp);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    top: 520px;
+    left: 655px;
+    z-index: 10;
+
+}
+h1{
+    font-size: 130px;
+    position: absolute;
+    left: 730px ;
+    top: 100px;
+}
+.timeabove{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 100px;
+    left: 810px; 
+    color: lightseagreen;
+}
+.reminders{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left: 690px;
+    top: 340px;
+    z-index: 10;
+}
+.timesen{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 690px;
+    top: 315px;
+    color: gray;
+    z-index: 10;
+}
+.rere{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 690px;
+    top: 370px;
+    font-size: 20px;
+    max-width: 500px;
+    z-index: 10;
+}
+.bruceselina{
+    background-image: url(d08d0edd5c225152befd2ec83335c56b-removebg-preview.png);
+     position: absolute;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    top: 510px;
+    left: 410px;
+    transform: scaleX(-1);
+}
+.baticon{
+    background-image: url(batman-icon.webp);
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    top: 110px;
+    right: 420px;
+    transform: rotate(35deg);
+}
+.homebutton{
+    background-image: url(Home-Button-1.png);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 400px;
+    right: 315px;
+    z-index: 10;
+}
+.notesapp{
+    background-image: url(Apple_Notes_icon.svg.webp);
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 320px;
+    right: 440px;
+    z-index: 10;
+}
+.imessage{
+    background-image: url(IMessage_logo.svg.webp);
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 320px;
+    left: 760px;
+    z-index: 10;
+}
+.reminder{
+    background-image: url(e80a0db07aa2b3fc9a59429945fe082a.png);
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 320px;
+    left: 470px;
+    z-index: 10;
+}
+.notestxt{
+    font-size: 30px;
+    position: absolute;
+    bottom: 370px;
+    right: 520px;
+    color: white;
+}
+.imessagetxt{
+    font-size: 30px;
+    position: absolute;
+    bottom: 370px;
+    left: 825px;
+    color: white;
+}
+.remindertxt{
+    font-size: 30px;
+    position: absolute;
+    bottom: 370px;
+    left: 520px;
+    color: white;
+}
+.batsrobin{
+    background-image: url(d66gud9-6b5bdc4d-b624-4ad4-859b-146e40b173a2.png);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 45px;
+    right: 350px;
+    z-index: 10;
+}
+.cutebats{
+    background-image: url(a246ea217c8dc9dddf830a3c8959e761-removebg-preview.png);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 90px;
+    left: 412px;
+    z-index: 10;
+    transform: rotate(90deg);
+}
+.leftnotes{
+    background-color: #2C2C2E;
+    position: absolute;
+    width: 330px;
+    height: 670px;
+    left: 420px;
+    top: 90px;
+    z-index: 10;
+}
+.rightnotes{
+     background-color: #101012;
+    position: absolute;
+    width: 560px;
+    height: 670px;
+    right: 400px;
+    top: 90px;
+    z-index: 10;
+}
+.topnotes{
+    background-color: #858587;
+    position: absolute;
+    width: 330px;
+    height: 100px;
+    left: 420px;
+    top: 89px;
+    z-index: 10;
+}
+.notes1{
+    background-color: #efeff3;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 437px;
+    top: 300px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.notes2{
+    background-color: #aaaaae;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 437px;
+    top: 500px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.allnotes{
+    color: white;
+    z-index: 99;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    font-size: 30px;
+}
+.allnotes h3{
+    color: yellow;
+}
+.notesheader{
+    font-size: 38px;
+    z-index: 999;
+    color: yellow;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    right: 420px;
+}
+.meetingtime{
+    font-size: 25px;
+    z-index: 999;
+    color: white;
+    position: absolute;
+    top: 180px;
+    right: 650px;
+}
+.leftleft{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 325px;
+    left: 455px;
+}
+.restleft{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 360px;
+    left: 455px;
+}
+.notes{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 140px;
+    left: 530px;
+    color: yellow;
+}
+.jokernotes{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    bottom: 400px;
+    left: 455px;
+}
+.restjoker{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    bottom: 370px;
+    left: 455px;
+}
+.reminderscreen{
+    background-color: #F5F5F7;
+    width: 887px;
+    height: 668px;
+    padding: 20px;
+    position: absolute;
+    top: 89px;
+    left: 420px;
+}
+.reminderhead{
+    font-size: 35px;
+    z-index: 999;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    color: rgb(50, 164, 234);
+}
+.dividers1{
+    background-color: gray;
+    position: absolute;
+    width: 800px;
+    height: 1px;
+    top: 250px;
+    left: 450px;
+}
+.dividers2{
+    background-color: gray;
+    position: absolute;
+    width: 800px;
+    height: 1px;
+    top: 400px;
+    left: 450px;
+}
+.dividers3{
+    background-color: gray;
+    position: absolute;
+    width: 800px;
+    height: 1px;
+    top: 570px;
+    left: 450px;
+}
+.dividers4{
+    background-color: rgb(220, 218, 218);
+    position: absolute;
+    width: 800px;
+    height: 1px;
+    top: 370px;
+    left: 470px;
+}
+.dividers5{
+    background-color: rgb(220, 218, 218);
+    position: absolute;
+    width: 800px;
+    height: 1px;
+    top: 530px;
+    left: 470px;
+}
+.dividers6{
+    background-color: rgb(220, 218, 218);
+    position: absolute;
+    width: 800px;
+    height: 1px;
+    top: 240px;
+    left: 470px;
+}
+.circle1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 320px;
+    left: 450px;
+    border: 1px solid black;
+}
+.circle2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 350px;
+    left: 450px;
+    border: 1px solid black;
+}
+.circle3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 465px;
+    left: 450px;
+    border: 1px solid black;
+}
+.circle4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 495px;
+    left: 450px;
+    border: 1px solid black;
+}
+.circle5{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 525px;
+    left: 450px;
+    border: 1px solid black;
+}
+.circle6{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 630px;
+    left: 450px;
+    border: 1px solid black;
+}
+.circle7{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 660px;
+    left: 450px;
+    border: 1px solid black;
+}
+.circle8{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellow;
+    z-index: 999;
+    border-radius: 50%;
+    top: 690px;
+    left: 450px;
+    border: 1px solid black;
+}
+.morning{
+    font-size: 20px;
+    position: absolute;
+    z-index: 999;
+    top: 280px;
+    left: 450px;
+}
+.morning1{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 318px;
+    left: 500px;
+}
+.morning2{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 348px;
+    left: 500px;
+}
+.afternoon{
+    font-size: 20px;
+    position: absolute;
+    z-index: 999;
+    top: 430px;
+    left: 450px;
+}
+.afternoon1{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 463px;
+    left: 500px;
+}
+.afternoon2{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 493px;
+    left: 500px;
+}
+.afternoon3{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 522px;
+    left: 500px;
+}
+.tonight{
+    font-size: 20px;
+    position: absolute;
+    z-index: 999;
+    top: 600px;
+    left: 450px;
+}
+.tonight1{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 627px;
+    left: 500px;
+}
+.tonight2{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 658px;
+    left: 500px;
+}
+.tonight3{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 690px;
+    left: 500px;
+}
+.messages{
+    font-size: 30px;
+    position: absolute;
+    z-index: 999;
+    top: 115px;
+    left: 450px;
+}
+.searchbar{
+    background-color: #e2e2e8;
+    position: absolute;
+    width: 830px;
+    height: 50px;
+    left: 450px;
+    top: 180px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.insearch{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 193px;
+    left: 500px;
+    color: #BDBDC2;
+}
+.selinapic{
+    background-image: url(kxormklheytd1.jpg);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    top: 250px;
+    left: 470px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.alfredpic{
+    background-image: url(Char_Thumb_AlfredPennyworth_5c40ddc7b0e397.70092314.avif);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    top: 400px;
+    left: 470px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.robinpic2{
+    background-image: url(Robin_glare.webp);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    top: 550px;
+    left: 470px;
+    border-radius: 50%;
+    z-index: 10;
+
+}
+.selinaname{
+    font-size: 30px;
+    z-index: 999;
+    position: absolute;
+    top: 270px;
+    left: 600px;
+}
+.selinatxt{
+   font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 310px;
+    left: 600px; 
+    color: #858587;
+}
+.alfredname{
+    font-size: 30px;
+    z-index: 999;
+    position: absolute;
+    top: 420px;
+    left: 600px;
+}
+.alfredtxt{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 460px;
+    left: 600px; 
+    color: #858587;
+}
+.robinname{
+    font-size: 30px;
+    z-index: 999;
+    position: absolute;
+    top:570px;
+    left: 600px;
+}
+.robintxt2{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 610px;
+    left: 600px; 
+    color: #858587;
+}
+.selinapic2{
+    background-image: url(kxormklheytd1.jpg);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    top: 100px;
+    left: 830px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.selinaname2{
+    font-size: 40px;
+    z-index: 999;
+    position: absolute;
+    top: 190px;
+    left: 795px;
+}
+.graybub1{
+    background-color: #dadae2;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 470px;
+    top: 300px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.txt1{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 320px;
+    left: 480px; 
+    color: #252526;
+}
+.graybub2{
+    background-color: #dadae2;
+    position: absolute;
+    width: 670px;
+    height: 60px;
+    left: 470px;
+    top: 390px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.txt2{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 410px;
+    left: 480px; 
+    color: #252526;
+}
+.bluebub1{
+  background-color: #007AFF;
+     position: absolute;
+    width: 500px;
+    height: 60px;
+    right: 450px;
+    top: 480px;
+    border-radius: 12px;
+    z-index: 10;  
+}
+.txt3{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 500px;
+    right: 470px; 
+    color: #252526;
+}
+.yesterdaytxt{
+    font-size: 17px;
+    z-index: 999;
+    position: absolute;
+    top: 250px;
+    left: 800px; 
+    color: #858587;
+}
+.todaytxt{
+    font-size: 17px;
+    z-index: 999;
+    position: absolute;
+    bottom: 360px;
+    left: 800px; 
+    color: #858587;
+}
+.txt4{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    bottom: 300px;
+    left: 490px; 
+    color: #252526;
+}
+.graybub3{
+    background-color: #dadae2;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    left: 470px;
+    bottom: 280px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.batsticker1{
+    background-image: url(proof.png);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 130px;
+    right: 285px;
+}
+.batsticker2{
+    background-image: url(HeroHydrantStickersBatmanFanArtWebsize_700x700.webp);
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -20px;
+    right: 380px;
+    transform: rotate(-90deg);
+}
+.batsticker3{
+    background-image: url(batman_symbol_bat_circle_logo_classic_round_sticker-rfe8877f05a9144e3bd09e335ea221df8_zg2qos_644-removebg-preview.png);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 400px;
+    left: 330px;
+    transform: rotate(-90deg);
+}

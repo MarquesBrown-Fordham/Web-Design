@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: radial-gradient(
+        circle,
+        #080B14 0%,
+        #17243A 50%,
+        #30213F 100%
+    );
+    min-height: 100vh;
+    margin: 0;
+}
+
+.ibm-plex-sans-uniquifier {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 577;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ipad{
+    background-image: url(29817-9-ipad-transparent-600x600.png);
+    width: 1150px;
+    height: 1150px;
+    background-size: contain;
+    transform: rotate(270deg);
+    position: absolute;
+    left: 300px;
+    top: -150px;
+}
+.screen{
+    background-image: url(vf4aS8e9FA8Q6yNEPcADs5PVNkkK3nIBDP5UiqBSITj5I4zwDrZZ5FarclxQO50hTzGd6jJL1LsN6AWZDKxrybfOJp7jKswy-yUReL3I1ITtKMGrhVwqijfboDPS_I-KxBm0oMIDtr1x3CFz1NDEdnvEJmbUs-K3OeMeD57G1TjP28TtsfcfUiafQz1cdob-.jpeg);
+    width: 887px;
+    height: 668px;
+    padding: 20px;
+    position: absolute;
+    top: 89px;
+    left: 420px;
+}
+.notibox{
+    background-color: #BDBDC2;
+    position: absolute;
+    width: 570px;
+    height: 120px;
+    left: 580px;
+    top: 300px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.notibox2{
+    background-color: #BDBDC2;
+    position: absolute;
+    width: 570px;
+    height: 120px;
+    left: 580px;
+    top: 450px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.robinpic{
+    background-image: url(Robin_glare.webp);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    top: 470px;
+    left: 600px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.robin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left: 700px;
+    top: 470px;
+    z-index: 10;
+}
+.robintxt{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 700px;
+    top: 510px;
+    font-size: 20px;
+    max-width: 500px;
+    z-index: 10;
+    font-size: 20px;
+}
+
+.app{
+    background-image: url(e80a0db07aa2b3fc9a59429945fe082a.png);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    top: 320px;
+    left: 600px;
+    z-index: 10;
+}
+.messapp{
+    background-image: url(IMessage_logo.svg.webp);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    top: 520px;
+    left: 655px;
+    z-index: 10;
+
+}
+h1{
+    font-size: 130px;
+    position: absolute;
+    left: 680px ;
+    top: 100px;
+}
+.reminders{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left: 690px;
+    top: 340px;
+    z-index: 10;
+}
+.timesen{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 690px;
+    top: 315px;
+    color: gray;
+    z-index: 10;
+}
+.rere{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 690px;
+    top: 370px;
+    font-size: 20px;
+    max-width: 500px;
+    z-index: 10;
+}
+.bruceselina{
+    background-image: url(d08d0edd5c225152befd2ec83335c56b-removebg-preview.png);
+     position: absolute;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    top: 510px;
+    left: 410px;
+    transform: scaleX(-1);
+}
+.baticon{
+    background-image: url(batman-icon.webp);
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    top: 110px;
+    right: 420px;
+    transform: rotate(35deg);
+}
+.homebutton{
+    background-image: url(Home-Button-1.png);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 400px;
+    right: 315px;
+    z-index: 10;
+}
+.notesapp{
+    background-image: url(Apple_Notes_icon.svg.webp);
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 320px;
+    left: 470px;
+    z-index: 10;
+}
+.imessage{
+    background-image: url(IMessage_logo.svg.webp);
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 320px;
+    left: 760px;
+    z-index: 10;
+}
+.reminder{
+    background-image: url(e80a0db07aa2b3fc9a59429945fe082a.png);
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 320px;
+    right: 440px;
+    z-index: 10;
+}
+.notestxt{
+    font-size: 30px;
+    position: absolute;
+    bottom: 370px;
+    left: 545px;
+    color: white;
+}
+.imessagetxt{
+    font-size: 30px;
+    position: absolute;
+    bottom: 370px;
+    left: 825px;
+    color: white;
+}
+.remindertxt{
+    font-size: 30px;
+    position: absolute;
+    bottom: 370px;
+    right: 490px;
+    color: white;
+}
+.batsrobin{
+    background-image: url(d66gud9-6b5bdc4d-b624-4ad4-859b-146e40b173a2.png);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 45px;
+    right: 350px;
+    z-index: 10;
+}
+.cutebats{
+    background-image: url(a246ea217c8dc9dddf830a3c8959e761-removebg-preview.png);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 90px;
+    left: 412px;
+    z-index: 10;
+    transform: rotate(90deg);
+}
+.leftnotes{
+    background-color: #2C2C2E;
+    position: absolute;
+    width: 330px;
+    height: 670px;
+    left: 420px;
+    top: 90px;
+    z-index: 10;
+}
+.rightnotes{
+     background-color: #101012;
+    position: absolute;
+    width: 560px;
+    height: 670px;
+    right: 400px;
+    top: 90px;
+    z-index: 10;
+}
+.topnotes{
+    background-color: #858587;
+    position: absolute;
+    width: 330px;
+    height: 100px;
+    left: 420px;
+    top: 89px;
+    z-index: 10;
+}
+.notes1{
+    background-color: #efeff3;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 437px;
+    top: 300px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.notes2{
+    background-color: #aaaaae;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 437px;
+    top: 500px;
+    border-radius: 12px;
+    z-index: 10;
+}
+.allnotes{
+    color: white;
+    z-index: 99;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    font-size: 30px;
+}
+.allnotes h3{
+    color: yellow;
+}
+.notesheader{
+    font-size: 38px;
+    z-index: 999;
+    color: yellow;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    right: 420px;
+}
+.meetingtime{
+    font-size: 25px;
+    z-index: 999;
+    color: white;
+    position: absolute;
+    top: 180px;
+    right: 650px;
+}
+.leftleft{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    top: 325px;
+    left: 455px;
+}
+.restleft{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 360px;
+    left: 455px;
+}
+.notes{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    top: 140px;
+    left: 530px;
+    color: yellow;
+}
+.jokernotes{
+    font-size: 20px;
+    z-index: 999;
+    position: absolute;
+    bottom: 400px;
+    left: 455px;
+}
+.restjoker{
+    font-size: 25px;
+    z-index: 999;
+    position: absolute;
+    bottom: 370px;
+    left: 455px;
+}
+.reminderscreen{
+    background-color: #F5F5F7;
+    width: 887px;
+    height: 668px;
+    padding: 20px;
+    position: absolute;
+    top: 89px;
+    left: 420px;
+}
+.reminderhead{
+    font-size: 35px;
+    z-index: 999;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+.dividers{
+    background-color: gray;
+    position: absolute;
+    width: 800px;
+    height: 1px;
+    top: 250px;
+    left: 450px;
+}
+.circle1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    color: yellow;
+}
+.morning{
+    font-size: 20px;
+    position: absolute;
+    z-index: 999;
+    top: 280px;
+    left: 450px;
+}
